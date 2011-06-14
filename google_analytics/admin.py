@@ -1,5 +1,5 @@
 from django.contrib import admin
-from googlean_alytics.models import GoogleAnalytics
+from google_analytics.models import GoogleAnalytics
 from django.contrib.sites.admin import Site
 
 class DjangoSiteGoogleAnalyticsInline(admin.TabularInline):
