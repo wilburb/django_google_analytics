@@ -33,7 +33,7 @@ Installation
 ------------
 1) Place the django_site_googleanalytics directory in your 
    python site/dist packages directory.
-2) add the django_site_googleanalytics to your INSTALLED_APPS
+2) add the google_analytics to your INSTALLED_APPS
 3) syncdb or migrate if you use south
 4) In the django admin interface visit the "Google analytics"
    page and add your google web property id for the site you
