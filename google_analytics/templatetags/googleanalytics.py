@@ -1,5 +1,5 @@
 from django import template
-from django_site_googleanalytics.models import GoogleAnalytics
+from google_analytics.models import GoogleAnalytics
 from django.contrib.sites.models import Site
 register = template.Library()
 
