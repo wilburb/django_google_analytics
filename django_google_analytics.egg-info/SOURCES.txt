@@ -1,11 +1,11 @@
 setup.cfg
 setup.py
-django_site_googleanalytics.egg-info/PKG-INFO
-django_site_googleanalytics.egg-info/SOURCES.txt
-django_site_googleanalytics.egg-info/dependency_links.txt
-django_site_googleanalytics.egg-info/entry_points.txt
-django_site_googleanalytics.egg-info/top_level.txt
-django_site_googleanalytics.egg-info/zip-safe
+django_google_analytics.egg-info/PKG-INFO
+django_google_analytics.egg-info/SOURCES.txt
+django_google_analytics.egg-info/dependency_links.txt
+django_google_analytics.egg-info/entry_points.txt
+django_google_analytics.egg-info/top_level.txt
+django_google_analytics.egg-info/zip-safe
 django_google_analytics/__init__.py
 django_google_analytics/admin.py
 django_google_analytics/models.py
