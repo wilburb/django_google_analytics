@@ -1,0 +1,15 @@
+setup.cfg
+setup.py
+google_analytics/__init__.py
+google_analytics/admin.py
+google_analytics/models.py
+google_analytics.egg-info/PKG-INFO
+google_analytics.egg-info/SOURCES.txt
+google_analytics.egg-info/dependency_links.txt
+google_analytics.egg-info/entry_points.txt
+google_analytics.egg-info/top_level.txt
+google_analytics.egg-info/zip-safe
+google_analytics/migrations/0001_initial.py
+google_analytics/migrations/__init__.py
+google_analytics/templatetags/__init__.py
+google_analytics/templatetags/googleanalytics.py
