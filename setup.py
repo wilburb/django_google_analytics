@@ -17,7 +17,7 @@ setup(name='django_google_analytics',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       package_data={
         'django_google_analytics': [
-            'templates/django_google_analytics/*.html',
+            'templates/google_analytics/*.html',
         ],
       },
       include_package_data=True,
