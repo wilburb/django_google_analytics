@@ -1,5 +1,5 @@
 Metadata-Version: 1.0
-Name: django_site_googleanalytics
+Name: django_google_analytics
 Version: 1
 Summary: Google analytics web property per site in django admin
 Home-page: wilburweb.com
