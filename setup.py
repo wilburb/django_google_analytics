@@ -3,7 +3,7 @@ import sys, os
 
 version = '1'
 
-setup(name='google_analytics',
+setup(name='django_google_analytics',
       version=1,
       description="Google analytics web property per site in django admin",
       long_description="""\
@@ -17,7 +17,7 @@ setup(name='google_analytics',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
       package_data={
         'google_analytics': [
-            'templates/google_analytics/*.html',
+            'templates/django_google_analytics/*.html',
         ],
       },
       include_package_data=True,
