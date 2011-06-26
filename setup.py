@@ -21,7 +21,7 @@ setup(name='django_google_analytics',
         ],
       },
       include_package_data=True,
-      zip_safe=True,
+      zip_safe=False,
       install_requires=[
           # -*- Extra requirements: -*-
       ],
