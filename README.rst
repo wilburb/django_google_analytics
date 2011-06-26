@@ -28,23 +28,22 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
   documentation at the following url.  
   http://docs.djangoproject.com/en/dev/howto/custom-template-tags/
 
-
 Installation
 ------------
-1) Place the django_site_googleanalytics directory in your 
-   python site/dist packages directory.
-2) add the google_analytics to your INSTALLED_APPS
+1) easy_install django_google_analytics
+2) add google_analytics to your INSTALLED_APPS
 3) syncdb or migrate if you use south
-4) In the django admin interface visit the "Google analytics"
+4) In the django admin interface visit the "Stes"
    page and add your google web property id for the site you
    wish to track.
 5) Add the following to your desired templates.
-   {% load googleanalytics %}    
-   # at the very bottom of your head section add this
+   {% load googleanalytics %}
+6) at the very bottom of your head section add this
    {% google_analytics %}
-   # if you want to avoid counting logged in user visits
+7) # if you want to avoid counting logged in user visits
    # surround the above line with the following
    {% if not user.is_staff %}
    {% endif %}
-6) Go to your google analytics control panel and refresh
+8) Go to your google analytics control panel and refresh
    frantically to see if it is working
+
