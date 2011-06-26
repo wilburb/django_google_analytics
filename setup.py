@@ -15,6 +15,11 @@ setup(name='google_analytics',
       url='wilburweb.com',
       license='GNU General Public License',
       packages=find_packages(exclude=['ez_setup', 'examples', 'tests']),
+      package_data={
+        'google_analytics': [
+            'templates/google_analytics/*.html',
+        ],
+      },
       include_package_data=True,
       zip_safe=True,
       install_requires=[
