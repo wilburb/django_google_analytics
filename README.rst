@@ -1,5 +1,5 @@
 ===========================
-django_site_googleanalytics
+django_google_analytics
 ===========================
 
 Django template tag app for inserting google analytic code on a per

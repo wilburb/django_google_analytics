@@ -16,7 +16,7 @@ class AnalyticsNode(template.Node):
             self.web_property_id = ''
     def render(self, context):
         if self.web_property_id:
-            analytic_template = template.loader.get_template('django_google_analytics/analytics.html')
+            analytic_template = template.loader.get_template('google_analytics/analytics.html')
             context = template.Context({
                                'web_property_id': self.web_property_id,
                                })
