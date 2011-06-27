@@ -33,7 +33,7 @@ Installation
 1) easy_install django_google_analytics
 2) add google_analytics to your INSTALLED_APPS
 3) syncdb or migrate if you use south
-4) In the django admin interface visit the "Stes"
+4) In the django admin interface visit the "Sites"
    page and add your google web property id for the site you
    wish to track.
 5) Add the following to your desired templates.
