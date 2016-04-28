@@ -1,6 +1,5 @@
-===========================
-django_google_analytics
-===========================
+Django Google Analytics
+=======================
 
 Django template tag app for inserting google analytic code on a per
 site basis.
@@ -30,20 +29,20 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 Installation
 ------------
-1) easy_install django_google_analytics
-2) add google_analytics to your INSTALLED_APPS
-3) syncdb or migrate if you use south
-4) In the django admin interface visit the "Sites"
+1. `pip install django_google_analytics`
+1. Ensure you have sites configured. https://docs.djangoproject.com/en/1.8/ref/contrib/sites/#enabling-the-sites-framework
+1. add `analytics` to your `INSTALLED_APPS`
+1. `python manage.py migrate`
+1. In the django admin interface visit the "Sites"
    page and add your google web property id for the site you
    wish to track.
-5) Add the following to your desired templates.
-   {% load googleanalytics %}
-6) at the very bottom of your head section add this
-   {% google_analytics %}
-7) # if you want to avoid counting logged in user visits
-   # surround the above line with the following
-   {% if not user.is_staff %}
-   {% endif %}
-8) Go to your google analytics control panel and refresh
+1. Add the following to your desired templates.
+   `{% load analytics %}`
+1. at the very bottom of your head section add this
+   `{% analytics %}`
+1. if you want to avoid counting logged in user visits
+   surround the above line with the following
+   `{% if not user.is_staff %}`
+   `{% endif %}`
+1. Go to your google analytics control panel and refresh
    frantically to see if it is working
-

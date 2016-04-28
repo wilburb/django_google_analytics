@@ -1,11 +1,11 @@
-Metadata-Version: 1.0
+Metadata-Version: 2.0
 Name: django_google_analytics
-Version: 1
+Version: 2
 Summary: Google analytics web property per site in django admin
 Home-page: wilburweb.com
 Author: Benjamin Wilbur
 Author-email: wilburb@wilburweb.com
 License: GNU General Public License
 Description: UNKNOWN
-Keywords: django google_analytics site
+Keywords: django google analytics site
 Platform: UNKNOWN

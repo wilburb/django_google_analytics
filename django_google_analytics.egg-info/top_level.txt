@@ -1,1 +1,1 @@
-google_analytics
+analytics
