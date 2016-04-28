@@ -4,7 +4,7 @@ import sys, os
 version = '2'
 
 setup(name='django_google_analytics',
-      version=1,
+      version=2,
       description="Google analytics web property per site in django admin",
       long_description="""\
 """,
